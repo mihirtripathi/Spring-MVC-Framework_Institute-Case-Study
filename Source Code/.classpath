@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/mysql-connector-java-8.0.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/JAVA Training/6th Week/23-04-2021/spring &amp; project/main case study/newWebJars/classes12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/JAVA Training/6th Week/23-04-2021/spring &amp; project/main case study/newWebJars/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/JAVA Training/6th Week/23-04-2021/spring &amp; project/main case study/newWebJars/commons-dbcp-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/JAVA Training/6th Week/23-04-2021/spring &amp; project/main case study/newWebJars/commons-dbcp-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/JAVA Training/6th Week/23-04-2021/spring &amp; project/main case study/newWebJars/commons-lang-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/JAVA Training/6th Week/23-04-2021/spring &amp; project/main case study/newWebJars/commons-pool-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/JAVA Training/6th Week/23-04-2021/spring &amp; project/main case study/newWebJars/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/JAVA Training/6th Week/23-04-2021/spring &amp; project/main case study/newWebJars/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/JAVA Training/6th Week/23-04-2021/spring &amp; project/main case study/newWebJars/log4j-1.2.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/JAVA Training/6th Week/23-04-2021/spring &amp; project/main case study/newWebJars/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/JAVA Training/6th Week/23-04-2021/spring &amp; project/main case study/newWebJars/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/JAVA Training/6th Week/23-04-2021/spring &amp; project/main case study/newWebJars/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/JAVA Training/6th Week/23-04-2021/spring &amp; project/main case study/newWebJars/standard-1.1.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
