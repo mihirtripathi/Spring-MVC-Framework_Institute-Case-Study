@@ -1,0 +1,31 @@
+use mydb;
+
+create table student(stud_id int(10) primary key, sname varchar(50) not null, squalification varchar(20) not null, scontact varchar(20) not null,saddress varchar(40) not null, email varchar(40) not null, spassword varchar(30) not null);
+desc student;
+select * from student;
+delete from student where stud_id=101;
+
+create table institute(iname varchar(30) primary key,ipassword varchar(50) not null, iaddress varchar(40) not null,nseats int(4) not null,ncourses int(20) not null, nfaculty int(4) );
+desc institute;
+select * from institute;
+delete from institute where iname='ipec';
+
+create table feedback(iname varchar(30) primary key, feedback varchar(100) not null, foreign key(stud_id) references student(stud_id));
+desc feedback;
+select * from feedback;
+
+create table complain(stud_id int(10) primary key, foreign key(iname) references institute(iname), complain varchar(100) not null );
+desc complain;
+select * from complain;
+
+create table req (iname varchar(30) primary key, foreign key(stud_id) references student(stud_id), req varchar(100)not null);
+desc req;
+select * from req;
+
+create table resp(stud_id int(10) primary key, foreign key(iname) references institute(iname), resp varchar(100));
+desc resp;
+select * from resp;
+
+create table msg(iname varchar(30) primary key, msg varchar(100) not null);
+desc msg;
+select * from msg;
